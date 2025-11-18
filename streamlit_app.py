@@ -70,7 +70,19 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {    
 
      labels[0]: {
-       "texts": ["고죠 와카나는 유니콘입니다", "고죠 와카나는 마린을 좋아합니다", "고죠는 히나 인형을 좋아합니다"],
+       "texts": ["유니콘", "마린 남편", "히나 인형"],
+       "images": ["https://image2.1004gundam.com/item_images/goods/380/1376413529.jpg"],
+       "videos": ["https://youtu.be/XXXXXXXXXXX"]
+     },
+
+     labels[1]: {
+       "texts": ["마린 바라기", "구름 과자", "공주"],
+       "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
+       "videos": ["https://youtu.be/XXXXXXXXXXX"]
+     },
+
+     labels[2]: {
+       "texts": ["고죠 아내", "코스프레", "히메"],
        "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
        "videos": ["https://youtu.be/XXXXXXXXXXX"]
      },
